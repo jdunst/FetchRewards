@@ -3,7 +3,7 @@ Repo for the purposes of the assignment provided by Fetch Rewards
 
 Notes on 1)
 1. I created the database diagram in a program called DeZign since I did not currently have one installed on my computer. Whether or not this played to advantage is up for debate,
-but that's the application that that "File" is expecting. Otherwise, I included the screensnip. My methodology was as follows:
+but that's the application that that .dez file is expecting. Otherwise, I included the screensnip for convenience. My methodology was as follows:
 
 Data flows downwards from the users table, but laterally from the brands table. My thinking was that we don't generate data on receipts
 for a customer who hasn't installed and created an account on our app. However, it is entirely possible we may be ingesting a large range
